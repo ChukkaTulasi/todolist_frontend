@@ -23,7 +23,7 @@ export default function Second() {
       event.preventDefault();
 
       console.log(data)
-      axios.post('https://vizagtodobackend.vercel.app//api/addtask',data)
+      axios.post('https://todolist-frontend-silk.vercel.app//api/addtask',data)
       .then((response) => {
             console.log(response.data)
 
